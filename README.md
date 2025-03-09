@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🏡 Mortgage Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Version**: 0.1.0  
+**Private**: Yes  
 
-## Available Scripts
+Welcome to the **Mortgage Calculator** app! 💰 This project is designed to help users easily calculate mortgage payments based on various parameters such as loan amount, interest rate, and loan term. The app also provides visualizations of the calculation results using **Chart.js**, making the process intuitive and informative. 📊
 
-In the project directory, you can run:
+## 🚀 Features
+- **📊 Data Visualization**: Mortgage calculation results are displayed with interactive charts using **Chart.js**.
+- **🔢 Input Flexibility**: Adjust loan amount, interest rate, and term to see real-time results.
+- **📱 Responsive Design**: Optimized for all device sizes.
+- **✅ Testing**: Built-in testing with **Jest** and **React Testing Library**.
 
-### `npm start`
+## 💻 Tech Stack
+- **React**: For building dynamic and interactive user interfaces.
+- **Material-UI**: Provides **Material Design** components for a clean and modern UI.
+- **Chart.js**: Visualize mortgage calculations through charts.
+- **Jest & Testing Library**: For ensuring app stability and reliability.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔧 Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started, follow these steps:
 
-### `npm test`
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/mortgage-calculator.git
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Navigate to the project folder**:
+    ```bash
+    cd mortgage-calculator
+    ```
 
-### `npm run build`
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Run the app**:
+    ```bash
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your app will be up and running on your local machine! 🎉
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Project Structure
 
-### `npm run eject`
+```plaintext
+mortgage-calculator/
+  ├── node_modules/          # Dependencies
+  ├── public/                # Static files (index.html)
+  ├── src/                   # Source code
+      ├── components/        # React components (e.g., Calculator, Chart)
+      ├── App.js             # Main app component
+      ├── index.js           # Entry point
+  ├── package.json           # Project dependencies & scripts
+  ├── README.md              # Project documentation
+📦 Dependencies
+React: For building user interfaces.
+Material-UI: For pre-designed UI components.
+Chart.js: For rendering interactive charts.
+Jest & React Testing Library: For testing React components.
+🔨 Scripts
+👨‍💻 start: Run the app in development mode.
+npm start
+🚀 build: Build the app for production (optimized).
+npm build
+🧪 test: Run tests in watch mode.
+npm test
+⚙️ eject: Eject from the default build setup.
+npm eject
+🌍 Browser Compatibility
+The app is compatible with modern browsers:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🖥️ Production: Works with browsers having >0.2% market share (excluding dead browsers and Opera Mini).
+🖱️ Development: Latest versions of Chrome, Firefox, and Safari.
+✨ Visual Features
+Interactive mortgage result charts with Chart.js 📊
+Responsive design for a seamless experience on any device 📱
+Real-time updates based on user inputs 🖱️
